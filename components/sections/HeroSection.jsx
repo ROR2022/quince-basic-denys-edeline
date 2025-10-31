@@ -53,7 +53,7 @@ export default function HeroSection() {
       //id="home"
       className="min-h-screen flex flex-col justify-center items-center relative pt-20"
     >
-      {/* <BackgroundCarrousel images={backgroundCarrouselImages}/> */}
+       <BackgroundCarrousel images={backgroundCarrouselImages}/> 
 
       {/* Contenido principal - Usar solo animación CSS, no scroll-based */}
       <div

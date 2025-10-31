@@ -2,14 +2,13 @@ export const quinceMainData = {
   hero: {
     name: "Denys Edeline",
     subtitle: "¡Mis XV años!",
-    backgroundImage: "/images/quince3.jpeg",
+    backgroundImage: "/images/denys01.jpg",
     quote:
       "La vida es un viaje mágico, y hoy celebro un capítulo especial lleno de sueños y esperanza.",
     backgroundCarrouselImages: [
-      "/images/quince1.jpeg",
-      "/images/quince2.jpeg",
-      "/images/quince3.jpeg",
-      "/images/quince4.jpeg",
+      "/images/denys01.jpg",
+      "/images/denys02.jpg",
+      "/images/denys03.jpg",
     ],
   },
   welcomeSection: {
@@ -27,7 +26,7 @@ export const quinceMainData = {
                 por cuidarme y guiarme en este camino.
                 Hace quince años mis padres agradecieron a Dios por mi vida. 
                 Hoy, yo agradezco a Dios por ellos, por su infinito amor y paciencia.`,
-      backgroundImage: "/images/fondoAzul1.jpg",
+      backgroundImage: "/images/fondoLila&Dorado1.jpg",
     },
     //Padrino Ma. Asunción Ramirez y Juan Gutiérrez
     godparents: {
@@ -157,7 +156,7 @@ export const quinceMainData = {
     backgroundImage: "/images/countdown-bg.jpg",
   },
   attendance: {
-    whatsappNumber: "5217777937484",
+    whatsappNumber: "5217472019746", // +52 1 747 201 9746
     title: "CONFIRMACIÓN DE ASISTENCIA",
     message: "Respetuosamente",
     subtitle: "Confirmar antes del evento.",
@@ -205,11 +204,11 @@ export const quinceMainData = {
         link: "https://example.com/transferencia-bancaria",
       },
       {
-        id: "mesaRegalos",
-        name: "Mesa de Regalos",
+        id: "RegaloSorpresa",
+        name: "Regalo Sorpresa",
         icon: "🎁",
         description:
-          "Hemos creado una mesa de regalos con opciones que nos encantaría recibir.",
+          "Si te gusta la idea de sorprenderme, un regalo sorpresa sería maravilloso.",
         image: "/images/gifts/gift-box.png",
         link: "https://example.com/mesa-de-regalos",
       }
