@@ -23,9 +23,9 @@ export default function ParentsSection() {
           if (entry.isIntersecting) {
             setIsInView(true);
             // Secuencia de animaciones escalonadas
-            setTimeout(() => setMessageVisible(true), 300);
-            setTimeout(() => setParentsVisible(true), 700);
-            setTimeout(() => setGodparentsVisible(true), 1100);
+            setTimeout(() => setMessageVisible(true), 100);
+            setTimeout(() => setParentsVisible(true), 200);
+            setTimeout(() => setGodparentsVisible(true), 300);
           } else {
             // Reset cuando sale de vista
             setIsInView(false);
@@ -35,7 +35,7 @@ export default function ParentsSection() {
           }
         },
         {
-          threshold: 0.3,
+          threshold: 0.2,
           rootMargin: '-50px 0px'
         }
       );
