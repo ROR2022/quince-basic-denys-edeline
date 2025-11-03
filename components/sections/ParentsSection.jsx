@@ -48,6 +48,18 @@ export default function ParentsSection() {
     }, []);
   }, []);
 
+  useEffect(() => {
+    if(messageVisible && !parentsVisible){
+      setParentsVisible(true);
+    }
+  }, [messageVisible]);
+
+  useEffect(() => {
+    if(parentsVisible && !godparentsVisible){
+      setGodparentsVisible(true);
+    }
+  }, [parentsVisible]);
+
   useIntersectionObserver();
 
   // Función helper para clases de animación
