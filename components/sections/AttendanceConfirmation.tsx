@@ -283,7 +283,7 @@ ${formData.mensaje ? `💌 *Mensaje especial:*\n${formData.mensaje}` : ""}
 ${formData.telefono ? `📱 *Teléfono:* ${formData.telefono}` : ""}
 
 ${confirmacionTexto}
-👥 *Número de invitados:* ${invitadosTexto}
+
 
 ${formData.mensaje ? `💌 *Mensaje especial:*\n${formData.mensaje}` : ""}
 
@@ -746,7 +746,9 @@ ${formData.mensaje ? `💌 *Mensaje especial:*\n${formData.mensaje}` : ""}
             </div>
 
             {/* Campo Número de Invitados */}
-            <div className={`relative group transition-all duration-1000 delay-5000 ${
+            <div 
+            style={{display:'none'}}
+            className={`relative group transition-all duration-1000 delay-5000 ${
               isVisible 
                 ? 'opacity-100 translate-x-0' 
                 : 'opacity-0 translate-x-12'

@@ -35,7 +35,7 @@ export const quinceMainData = {
     },
     date: {
       full: "Sábado 22 de Noviembre 2025",
-      isoDate: "2025-11-22T13:00:00",
+      isoDate: "2025-11-22T18:00:00",
       day: "Sábado",
       dayNumber: "22",
       month: "Noviembre",
@@ -62,7 +62,7 @@ export const quinceMainData = {
       ceremonyImage: "/images/quince6.jpeg",
     },
     party: {
-      time: "14:00 hrs.",
+      time: "18:00 hrs.",
       venue: "Jardin Diamante",
       address: "Boulevard Vicente Guerrero KM 273 Frente a Museo la Avispa",
       type: "Recepción",
